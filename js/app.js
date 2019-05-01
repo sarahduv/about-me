@@ -1,3 +1,5 @@
+'use strict';
+
 var answerOne = prompt('Am I 99 years old?').toLowerCase();
 
 if (answerOne === 'no' || answerOne === 'n') {
@@ -14,7 +16,7 @@ if (answerTwo === 'yes' || answerTwo === 'y') {
   alert('You are correct! I am from North Carolina!');
   console.log('The user got the correct answer for #1');
 } else {
-  alert('You are wrong! I am not from North Carolina!');
+  alert('You are wrong! I am from North Carolina!');
   console.log('The user got the wrong answer for #1');
 }
 
@@ -24,7 +26,7 @@ if (answerThree === 'no' || answerThree === 'n') {
   alert('You are correct! my name is not Snickerdoodle!');
   console.log('The user got the correct answer for #1');
 } else {
-  alert('You are wrong! My name is not SNickerdoodle!');
+  alert('You are wrong! My name is not Snickerdoodle!');
   console.log('The user got the wrong answer for #1');
 }
 
