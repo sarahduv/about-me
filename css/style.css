@@ -16,7 +16,7 @@ h1 {
     }
 
 body {
-    background-image: url("cyclopsgreen.jpg");
+    background-image: url(../img/cyclopsgreen.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
