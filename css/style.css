@@ -1,14 +1,17 @@
 h1 {
-    color: rgb(16, 3, 93);
-    font-size: 60px;
-    font-family: fantasy;
-    text-decoration: underline;
-    }
+	font-weight: 900;
+	text-transform: capitalize;
+	color: rgb(10, 10, 77);
+	font-style: initial;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px rgb(168, 165, 165);
+}
 
  p {
     color: rgb(92, 20, 70);
-    font-weight: 200;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -17,6 +20,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+#name {
+    border: 10px dashed rgb(66, 65, 68);
+    padding: 10px;  
+    display: in-line block;
+    width: 26%;
+    margin: 20px 20px 50px 2px;
 }
 
 ul {
@@ -30,6 +41,7 @@ ol {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 
