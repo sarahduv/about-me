@@ -154,7 +154,7 @@ if (correctResponses === 7) {
 } else if(correctResponses < 7 && correctResponses > 3) {
   alert('You have gotten ' + correctResponses + ' questions correct out of 7! That is pretty darn good!');
 } else if(correctResponses < 4) {
-  alert('You did\'t do so hot there. You only got ' + correctResponses + '. Maybe you should try again.');
+  alert('You did\'t do so hot there. You only got ' + correctResponses + ' questions correct. Maybe you should try again.');
 }
 
 
